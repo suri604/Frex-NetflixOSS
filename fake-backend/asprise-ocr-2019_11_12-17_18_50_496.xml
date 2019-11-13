@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="aocr.xsl"?>
+<asprise-ocr input="/home/cgi/Desktop/arun.pdf" time-start="2019-11-12 17:18:50 +0530" version-format="15" runtime="Asprise OCR 15.3 - Evaluation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://asprise.com/ocr/files/schema/15/aocr.xsd">
+  <page no="0" width="2550" height="3301" words="0" confidence="0" time-taken="1.935">
+ <table id="2" x="811" y="725" width="49" height="46" rows="1" cols="1" cells="1" words="2" confidence="77">
+  <cell id="1" x="811" y="725" width="49" height="46" row="0" col="0" rowspan="1" colspan="1" largestContentArea="624">
+    <block id="4" type="text" subtype="line" x="818" y="729" width="41" height="19" words="1" confidence="97" font-name="Courier_New_Bold" font-size="18" font-bold="1" font-italic="0" font-serif="1" baseline="742" xheight="8" ascent="4" descent="-4">{W</block>
+    <block id="5" type="text" subtype="line" x="818" y="736" width="41" height="34" words="1" confidence="57" font-name="Courier_New_Bold" font-size="47" font-bold="1" font-italic="0" font-serif="1" baseline="770" xheight="22" ascent="11" descent="-11">EL</block>
+  </cell>
+ </table>
+  </page>
+</asprise-ocr>

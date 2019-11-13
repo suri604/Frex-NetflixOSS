@@ -1,0 +1,41 @@
+
+version: '2'
+services:
+    eureka-service:
+      image: eureka
+      build: Eureka-server/
+      restart: always
+      network_mode: host
+      container_name: eureka-container
+      ports:
+        - "8761:8761"
+      expose:
+        - 8761
+
+    mongo:
+      image: mongo
+      ports:
+        - "27017:27017"
+      container_name: mongo-container
+      network_mode: host
+
+    spring-config-server:
+      image: config
+      build: Config-Server/
+      restart: always
+      network_mode: host
+      container_name: config-container
+      ports:
+        - "8888:8888"
+      expose:
+        - 8888
+    api-gateway-service:
+      image: zuul
+      build: ZuulAPI/
+      restart: always
+      network_mode: host
+      container_name: zuul-container
+      ports:
+        - "8081:8081"
+      expose:
+        - 8081
